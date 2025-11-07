@@ -1,0 +1,46 @@
+# --- Dependências e builds ---
+node_modules/
+dist/
+build/
+**/node_modules/
+**/dist/
+**/build/
+
+# Vite / caches
+.vite/
+vite.svg
+.cache/
+.eslintcache
+*.tsbuildinfo
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# Cobertura de testes
+coverage/
+
+# Ambiente (não versionar segredos)
+.env
+.env.*
+!.env.example
+
+# SO / Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# VSCode (opcional manter configurações do time)
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# IDEs
+.idea/
+*.iml
+
+# Storybook ou saída de build de docs (caso use)
+.storybook-out/
+.out/
