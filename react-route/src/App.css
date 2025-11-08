@@ -1,0 +1,16 @@
+.app {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 1rem;
+  color: #111;
+  background: #fff;
+}
+
+.app--dark {
+  color: #f7f7f7;
+  background: #111;
+}
+
+.app--dark .card {
+  border-color: #333;
+}
